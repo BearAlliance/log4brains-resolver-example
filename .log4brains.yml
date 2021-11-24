@@ -1,0 +1,11 @@
+project:
+  name: log4brains-resolver-example
+  tz: America/New_York
+  adrFolder: ./docs/adr
+  packages:
+    - name: packageone
+      path: packageone
+      adrFolder: packageone
+    - name: packagetwo
+      path: packagetwo
+      adrFolder: packagetwo

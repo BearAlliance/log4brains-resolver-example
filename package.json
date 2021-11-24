@@ -1,0 +1,20 @@
+{
+  "name": "log4brains-resolver-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "new:packageone": "log4brains adr new --package packageone --from templates/packageone.md",
+    "new:packagetwo": "log4brains adr new --package packagetwo",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "log4brains preview"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "log4brains": "^1.0.0-beta.11"
+  }
+}
